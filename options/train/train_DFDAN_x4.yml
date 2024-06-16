@@ -75,7 +75,7 @@ train:
     type: CosineAnnealingRestartLR
     periods: [500000]    # [10000000] for training the x4 SR model directly from scratch
     restart_weights: [1]
-    eta_min: !!float 1e-6
+    eta_min: !!float 1e-4    # !!float 1e-6 for training the x4 SR model directly from scratch
 
   total_iter: 500000    # 10000000 for training the x4 SR model directly from scratch
   warmup_iter: -1  # no warm up
