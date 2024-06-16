@@ -55,6 +55,12 @@ path:
   pretrain_network_g: experiments/pretrained_models/DFDAN_x2.pth
   strict_load_g: false
   resume_state: ~
+  
+# If you want to train the x4 SR model directly from scratch, you can change the code like following setting:
+#path:
+#  pretrain_network_g: ~
+#  strict_load_g: true
+#  resume_state: ~
 
 # training settings
 train:
@@ -67,11 +73,11 @@ train:
 
   scheduler:
     type: CosineAnnealingRestartLR
-    periods: [500000]
+    periods: [500000]    # [10000000] for training the x4 SR model directly from scratch
     restart_weights: [1]
     eta_min: !!float 1e-6
 
-  total_iter: 500000
+  total_iter: 500000    # 10000000 for training the x4 SR model directly from scratch
   warmup_iter: -1  # no warm up
 
   # losses
