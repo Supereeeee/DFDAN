@@ -56,7 +56,7 @@ path:
   strict_load_g: false
   resume_state: ~
   
-# If you want to train the x4 SR model directly from scratch, you can change the code like following setting:
+# If you want to train the x4 SR model directly from scratch, you can change the code like following:
 #path:
 #  pretrain_network_g: ~
 #  strict_load_g: true
