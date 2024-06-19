@@ -1,5 +1,4 @@
-# Dilated feature distillation attention network for efficient image super-resolution
-Yinggan Tang, Quanwei Hu, Chunning Bu
+# Dilated feature distillation attention network for efficient image super-resolution (DFDAN)
 
 ## Environment in our experiments
 [python 3.8]
