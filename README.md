@@ -1,5 +1,5 @@
-# Dilated feature distillation attention network for efficient image super-resolution [[paper link]](https://www.sciencedirect.com/science/article/abs/pii/S0031320325005163)
-
+# Dilated feature distillation attention network for efficient image super-resolution
+Accept by PR2025 [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320325005163)
 ## Environment in our experiments
 [python 3.8]
 
